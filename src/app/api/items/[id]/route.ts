@@ -1,6 +1,6 @@
-import connectMongoDB from "../../../../libs/mongodb";
+import connectMongoDB from "../../../libs/mongodb";
 import mongoose from "mongoose";
-import Item from "../../../models";
+import Item from "../../../models/models";
 import { NextRequest, NextResponse } from "next/server";
 
 interface RouteParams {
